@@ -1,0 +1,12 @@
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 63px 22px 65px;
+    background: #FFF;
+}
+
+.headerLeft{
+    display: flex;
+    gap: 140px;
+}
