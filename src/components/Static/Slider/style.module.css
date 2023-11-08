@@ -1,0 +1,48 @@
+.sliderBody{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 648px;
+    background-image: url('../../../assets/images/slider/slider.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 48px;
+}
+
+.sliderMainTitle{
+    max-width: 558px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.shopNowButton{
+    width: fit-content;
+    padding: 18px 36px;
+    background: transparent;
+    border: 5px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.sliderRight{
+    margin-right: 102px;
+    gap: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

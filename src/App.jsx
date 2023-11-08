@@ -3,7 +3,6 @@ import Home from './pages/home/index'
 import About from './pages/about/index'
 import Contact from './pages/contact/index'
 
-
 const App = () => {
   return (
     <>
@@ -11,7 +10,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/about" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

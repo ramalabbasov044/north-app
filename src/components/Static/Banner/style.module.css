@@ -1,0 +1,32 @@
+.bannerBody{
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 63px 107px 63px;
+    gap: 82px;
+}
+
+
+.bannerItem{
+    display: flex;
+    gap: 22px;
+}
+
+.bannerTitle{
+    color: #1D1D1D;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.bannerDesc{
+    color: #555;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
