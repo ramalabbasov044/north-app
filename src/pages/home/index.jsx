@@ -7,7 +7,6 @@ import bannerData from '../../services/data/bannerData'
 import styles from './style.module.css'
 
 const Home = () => {
-  
   return (
     <>
       <Header />
