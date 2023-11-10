@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import styles from './style.module.css'
 
 const Card = ({ data }) => {
-    const [clothesData,setClothesData] = useState(data)
+    let navigate = useNavigate()
 
-    console.log(clothesData);
     return (
         <>  
             <div className={styles.cardBody}>
                 {
                     data.map((item) => (
-                        <div key={item.id} className={styles.card}>
+                        <div onClick={() => navigate(`/product-detail/${item.id}`)} key={item.id} className={styles.card}>
                             <img src={item.img}  alt="" />
                             <p className={styles.cardTitle}>
                                 {

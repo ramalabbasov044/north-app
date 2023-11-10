@@ -5,6 +5,7 @@ import Banner from '../../components/Static/Banner/index'
 import data from '../../services/data/clothesData'
 import bannerData from '../../services/data/bannerData'
 import styles from './style.module.css'
+import { useState } from 'react'
 
 const Home = () => {
   return (

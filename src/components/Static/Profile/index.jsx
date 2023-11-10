@@ -1,9 +1,9 @@
 import ProfileIcon from '../../Icons/Profile/index'
 import Basket from '../../Icons/Basket/index'
 import Menu from '../../Icons/Menu/index'
+import { Link } from "react-router-dom"
 import styles from './style.module.css'
 import '../../../assets/css/global.css'
-
 const Profile = () => {
   return (
     <div className={styles.ProfileBody}>
@@ -12,7 +12,9 @@ const Profile = () => {
         </button>
 
         <button className={styles.NavButton}>
-            <Basket />
+            <Link to="/basket">
+              <Basket />
+            </Link>
         </button>
 
         <button className={styles.NavButton}>

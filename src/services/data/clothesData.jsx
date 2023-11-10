@@ -12,49 +12,73 @@ let clothesData = [
         "id": 1,
         "img": clothes1,
         "name": "Plain White Shirt",
-        "price": 69.00
+        "price": 69,
+        "originalPrice": 89,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     },
     {
         "id": 2,
         "img": clothes2,
         "name": "Denim Jacket",
-        "price": 49.00
+        "price": 49,
+        "originalPrice":59,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     },
     {
         "id": 3,
         "img": clothes3,
         "name": "Black Polo Shirt",
-        "price": 79.00
+        "price": 79,
+        "originalPrice": 89,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     },
     {
         "id": 4,
         "img": clothes4,
         "name": "Blue Sweatshirt",
-        "price": 49.00
+        "price": 49,
+        "originalPrice": 79,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     },
     {
         "id": 5,
         "img": clothes5,
         "name": "Blue Plain Shirt",
-        "price": 89.00
+        "price": 89,
+        "originalPrice": 99,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     },
     {
         "id": 6,
         "img": clothes6,
         "name": "Dark Blue Shirt",
-        "price": 29.00
+        "price": 29,
+        "originalPrice": 89,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     },
     {
         "id": 7,
         "img": clothes7,
         "name": "Outcast T Shirt",
-        "price": 19.00
+        "price": 19,
+        "originalPrice": 24,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     },
     {
         "id": 8,
         "img": clothes8,
         "name": "Polo Plain Shirt",
-        "price": 29.00
+        "price": 29,
+        "originalPrice": 39,
+        "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+        "sizes": ["xl","ls","m","n"]
     }
 ]
 export default clothesData
