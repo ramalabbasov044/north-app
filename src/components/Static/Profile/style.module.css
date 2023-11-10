@@ -1,0 +1,11 @@
+.NavButton{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.ProfileBody{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

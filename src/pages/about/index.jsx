@@ -1,8 +1,10 @@
-import React from 'react'
+import Header from '../../components/Static/Header/index'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Header />
+    </>
   )
 }
 

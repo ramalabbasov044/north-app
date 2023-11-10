@@ -1,8 +1,10 @@
-import React from 'react'
+import Header from '../../components/Static/Header/index'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <Header />
+    </>
   )
 }
 
