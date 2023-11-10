@@ -13,25 +13,26 @@ const ProductDetail = () => {
 
   var c_item = clothesData.filter((item) => item.id == params.id)[0];
   let addCard = () => {
-    let card_obj = [{
-      "size": size,
+    let lastData = JSON.parse(localStorage.getItem('card_obj')) || [];
+  
+    let newItem = {
+      "size": size ? size : "xl",
       "id": c_item.id,
       "img": c_item.img,
       "name": c_item.name,
       "price": c_item.price,
       "description": c_item.description,
       "originalPrice": c_item.originalPrice,
-    }];
+    };
   
-    let objToArr = [ ...card_obj];
+    lastData.push(newItem);
   
-    localStorage.setItem('card_obj', JSON.stringify(objToArr));
-  
+    localStorage.setItem('card_obj', JSON.stringify(lastData));
     navigate("/basket");
   }
   
   let sizeFunc = (sizes) => {
-    setSize(sizes ? sizes : "xl")
+    setSize(sizes)
   }
 
   let renderData = () => {

@@ -22,9 +22,9 @@ const Basket = () => {
             </thead>
             <tbody>
               {
-                data.map((item) => (
+                data?.map((item,index) => (
                   <tr className={styles.tableTr}>
-                    <th>{item.id}</th>
+                    <th>{index + 1}</th>
                     <td className={styles.CardName}><img className={styles.tableImg} src={item.img} />{item.name}</td>
                     <td className={styles.TableTd}>{item.price}</td>
                     <td className={styles.TableTd}>{item.size}</td>
