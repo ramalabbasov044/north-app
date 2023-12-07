@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
@@ -12,20 +13,33 @@ export const getCard = createSlice({
       setData: (state, action) => {
         state.data.push(action.payload)
       },
-      setIncrementPrice: (state) => {
-        state.count += 1
+      setIncrementPrice: (state, action) => {
+          const productIndex = action.payload
+
+          const currentData = state.data.filter((item,i) => i === productIndex)
+
+          if(currentData){
+              state.data[productIndex].count += 1
+          }
       },
-      setDecrementPrice: (state) => {
-        if(state.count > 1){
-            state.count -= 1
-        }else{
-            console.log("a");
-        }
+      setDecrementPrice: (state, action) => {
+        const productIndex = action.payload
+
+          const currentData = state.data.filter((item,i) => i === productIndex)
+
+          if(currentData){
+              if(state.data[productIndex].count > 1){
+                state.data[productIndex].count -= 1
+              }
+          }
       },
+      deleteData: (state, action) => {
+        state.data = action.payload
+      }
       
     },
 })
 
-export const { setData , setIncrementPrice , setDecrementPrice } = getCard.actions
+export const { setData , setIncrementPrice , setDecrementPrice , deleteData } = getCard.actions
 
 export default getCard.reducer

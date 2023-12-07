@@ -15,7 +15,8 @@ let clothesData = [
         "price": 69,
         "originalPrice": 89,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     },
     {
         "id": 2,
@@ -24,7 +25,8 @@ let clothesData = [
         "price": 49,
         "originalPrice":59,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     },
     {
         "id": 3,
@@ -33,7 +35,8 @@ let clothesData = [
         "price": 79,
         "originalPrice": 89,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     },
     {
         "id": 4,
@@ -42,7 +45,8 @@ let clothesData = [
         "price": 49,
         "originalPrice": 79,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     },
     {
         "id": 5,
@@ -51,7 +55,8 @@ let clothesData = [
         "price": 89,
         "originalPrice": 99,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     },
     {
         "id": 6,
@@ -60,7 +65,8 @@ let clothesData = [
         "price": 29,
         "originalPrice": 89,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     },
     {
         "id": 7,
@@ -69,7 +75,8 @@ let clothesData = [
         "price": 19,
         "originalPrice": 24,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     },
     {
         "id": 8,
@@ -78,7 +85,8 @@ let clothesData = [
         "price": 29,
         "originalPrice": 39,
         "description": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
-        "sizes": ["xl","ls","m","n"]
+        "sizes": ["xl","ls","m","n"],
+        "count": 1
     }
 ]
 export default clothesData

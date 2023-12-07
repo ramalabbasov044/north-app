@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 63px;
@@ -77,4 +78,23 @@ td{
 #cardIncrement{
     display: flex;
     gap: 10px;
+}
+
+.orderButton{
+    background: #1D1D1D;
+    width: 130px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.orderButtonBody{
+    padding-right: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
 }
