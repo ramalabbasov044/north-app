@@ -1,9 +1,17 @@
+
 .cardBody{
     margin-top: 112px;
     max-width: 100vw;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
+}
+
+.priceBody{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0px;
 }
 
 .card{
@@ -26,7 +34,6 @@
 }
 
 .cardPrice{
-    margin-top: 6px;
     color: #024E82;
     text-align: center;
     font-family: Lato;
@@ -34,4 +41,40 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.cardOrijinalPrice{
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+.addToCardButton{
+    margin-top: 20px;
+    background: rgb(3, 3, 146);
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.addItementDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.cardButton{
+    width: 25px;
+    height: 25px;
+    background: rgb(3, 3, 146);
+    border: 0;
+    color: #fff;
 }

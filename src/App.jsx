@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import CustoomRoute from './constants/routes/index'
 import Home from './pages/home/index'
 import About from './pages/about/index'
 import Contact from './pages/contact/index'
@@ -11,7 +12,7 @@ const App = () => {
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
+              <Route path={CustoomRoute.about} element={<About />} />
               <Route path="/basket" element={<Basket />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/product-detail/:id" element={<ProductDetail />} />
