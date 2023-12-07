@@ -55,3 +55,26 @@ td{
     font-weight: 400;
     line-height: normal;
 }
+.TableTdd{
+    color: #555;
+    font-family: Lato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px !important;
+    gap: 14px;
+}
+
+.cardFunctionalButon{
+    background: #fff;
+    border: 1px solid darkgray;
+    padding: 7px;
+    border-radius: 10px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#cardIncrement{
+    display: flex;
+    gap: 10px;
+}
