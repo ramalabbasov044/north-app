@@ -11,8 +11,13 @@ export const getCard = createSlice({
     initialState,
     reducers: {
       setData: (state, action) => {
-        state.data.push(action.payload)
+          state.data.push(action.payload)
       },
+
+      clearData: (state, action) => {
+          state.data = action.payload
+      },
+
       setIncrementPrice: (state, action) => {
           const productIndex = action.payload
 
@@ -22,8 +27,9 @@ export const getCard = createSlice({
               state.data[productIndex].count += 1
           }
       },
+
       setDecrementPrice: (state, action) => {
-        const productIndex = action.payload
+          const productIndex = action.payload
 
           const currentData = state.data.filter((item,i) => i === productIndex)
 
@@ -33,13 +39,14 @@ export const getCard = createSlice({
               }
           }
       },
+
       deleteData: (state, action) => {
-        state.data = action.payload
+          state.data = action.payload
       }
       
     },
 })
 
-export const { setData , setIncrementPrice , setDecrementPrice , deleteData } = getCard.actions
+export const { setData , setIncrementPrice , setDecrementPrice , deleteData , clearData } = getCard.actions
 
 export default getCard.reducer

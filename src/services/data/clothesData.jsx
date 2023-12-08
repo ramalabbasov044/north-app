@@ -1,7 +1,7 @@
 import clothes1 from './clothes/clothes1.svg'
-import clothes2 from './clothes/clothes2.svg'
+// import clothes2 from './clothes/clothes2.svg'
 import clothes3 from './clothes/clothes3.svg'
-import clothes4 from './clothes/clothes4.svg'
+// import clothes4 from './clothes/clothes4.svg'
 import clothes5 from './clothes/clothes5.svg'
 import clothes6 from './clothes/clothes6.svg'
 import clothes7 from './clothes/clothes7.svg'
@@ -20,7 +20,7 @@ let clothesData = [
     },
     {
         "id": 2,
-        "img": clothes2,
+        "img": "https://burst.shopifycdn.com/photos/professional-man-portrait.jpg?width=1000&format=pjpg&exif=0&iptc=0",
         "name": "Denim Jacket",
         "price": 49,
         "originalPrice":59,
@@ -40,7 +40,7 @@ let clothesData = [
     },
     {
         "id": 4,
-        "img": clothes4,
+        "img": "https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg",
         "name": "Blue Sweatshirt",
         "price": 49,
         "originalPrice": 79,
