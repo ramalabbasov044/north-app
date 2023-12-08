@@ -27,7 +27,7 @@ const Card = ({ data }) => {
                 {
                     data.map((item) => (
                         <div key={item.id} className={styles.card}>
-                            <img src={item.img}  alt="" />
+                            <img className={styles.cardImage} src={item.img}  alt="" />
                             <p className={styles.cardTitle}>
                                 {
                                     item.name

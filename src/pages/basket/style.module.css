@@ -97,3 +97,28 @@ td{
     justify-content: flex-end;
     width: 100%;
 }
+
+.notTitle{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.closeButton{
+    padding: 12px 24px;
+    border: 1px solid red;
+    background: #fff;
+    color: red;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.removeButton{
+    background: red;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+    padding:  12px 24px;
+    color: #fff;
+}

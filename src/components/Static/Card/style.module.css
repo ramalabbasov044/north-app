@@ -7,6 +7,11 @@
     gap: 20px;
 }
 
+.cardImage{
+    width: 295px;
+    height: 342px;
+}
+
 .priceBody{
     display: flex;
     gap: 10px;
@@ -53,7 +58,6 @@
 }
 
 .addToCardButton{
-    margin-top: 20px;
     background: rgb(3, 3, 146);
     width: 80%;
     height: 40px;
@@ -62,6 +66,7 @@
     align-items: center;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
 
 .addItementDiv{
@@ -77,4 +82,5 @@
     background: rgb(3, 3, 146);
     border: 0;
     color: #fff;
+    cursor: pointer;
 }
